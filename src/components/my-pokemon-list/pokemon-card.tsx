@@ -94,6 +94,21 @@ const PokemonCard = ({
     }
   `;
 
+  const buyButton = css`
+    background-color: #0275d8;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    &:hover {
+      scale: 1.1;
+      transition: all 200ms ease-in-out;
+    }
+
+  
+  `
+
   return (
     <div
       css={css`
@@ -114,6 +129,7 @@ const PokemonCard = ({
       >
         <FaTrashAlt />
       </Button>
+      <div css={card}>
       <Link to={"/pokemon/" + pokemonData.name} css={card}>
         <img
           crossOrigin="anonymous"
@@ -135,8 +151,11 @@ const PokemonCard = ({
         </div>
         <p css={{ marginTop: "0.5em", fontsize: "0.5em" }}>Owned {count()}</p>
       </Link>
+      <button css={buyButton}><a href="https://www.tokopedia.com/merphise" target="blank">Buy</a></button> 
+      </div>
+
     </div>
   );
-};
+}
 
 export default PokemonCard;

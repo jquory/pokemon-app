@@ -50,14 +50,11 @@ const About = () => {
         <title>{`About`}</title>
       </Helmet>
 
-      <h1>Pokemon</h1>
+      <h1>Kemas Muhammad Qori Ichsan</h1>
       <p>
-        A simple pokemon web app built with react.js.
+        A simple pokemon web app built for IT FESTIVAL 2022 Competition.
       </p>
-      <p>
-        Pokémon © 2002-2021 Pokémon. © 1995-2021 Nintendo/Creatures Inc./GAME
-        FREAK inc. TM, ® and Pokémon character names are trademarks of Nintendo.
-      </p>
+      <a href="https://github.com/jquory">repository -&gt;</a>
       <div>
         <Button
           css={(theme) => ({
@@ -83,6 +80,12 @@ const About = () => {
         >
           <FaTrash /> Release all Pokémon
         </Button>
+      </div>
+
+      <div className="">
+        <img width={50} src="/assets/hmj.png" alt="" />
+        <img width={50} src="/assets/logo.png" alt="" />
+        <img width={50} src="/assets/polsri.png" alt="" />
       </div>
     </Container>
   );
