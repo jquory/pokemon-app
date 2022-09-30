@@ -1,8 +1,4 @@
-# Pokemon app
-
-<p align='center'>
-Source project -> <a href='https://wisesa.dev'>Wisesa.dev</a>.
-</p>
+# Pokemon app build by jquory
 
 ## Run Locally
 
@@ -20,7 +16,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd pkdx
+  cd pokemon-app
 ```
 
 Install dependencies
@@ -42,10 +38,6 @@ Open http://localhost:3000 with your browser to see the result.
 ```bash
 yarn test
 ```
-
-## Github Actions
-
-This project has a github actions scripts to run `yarn test` & lighthouse assertion, see it in [**_actions_**](https://github.com/jquory/pokemon/actions) (ha! get it?).
 
 ## Built Using
 
